@@ -9,6 +9,8 @@
     --cor3: #1B1B1B;
     --cor4: #5E5E5E;
     --cor5: #595959;
+    --cor6: #FE0100;
+    --cor7: #FF1D1C;
 
     --fonte1: 'Fjalla One', arial, sans-serif;
     --fonte2: 'Source Sans 3' arial, sans-serif;
@@ -17,4 +19,8 @@
 * {
     margin: 0;
     padding: 0;
+}
+
+header > div.container-header {
+    background-color: var(--cor6);
 }
